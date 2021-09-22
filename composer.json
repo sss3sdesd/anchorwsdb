@@ -1,5 +1,5 @@
 {
-    "name": "anchor/livedirector",
+    "name": "anchorws/livedirector",
     "type": "l",
     "require": {
         "php": ">=7.0.0"
