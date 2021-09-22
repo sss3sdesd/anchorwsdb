@@ -1,12 +1,12 @@
 {
-    "name": "anchorws/director",
+    "name": "anchor/livedirector",
     "type": "l",
     "require": {
         "php": ">=7.0.0"
     },
     "autoload": {
         "psr-4": {
-            "Ws\\": "src/ws"
+            "Livedirector\\": "src/livedirector"
         }
     },
     "minimum-stability": "dev"

@@ -1,5 +1,5 @@
 <?php
-namespace Ws;
+namespace Livedirector;
 class Test{
     function test(){
         echo 'function -> test()';

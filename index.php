@@ -1,4 +1,4 @@
 <?php
 require "vendor/autoload.php";
-$test = new Ws\Test();
+$test = new \Livedirector\Test();
 $test->test();

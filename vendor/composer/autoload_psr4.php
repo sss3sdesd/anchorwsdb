@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Ws\\' => array($baseDir . '/src/ws'),
+    'Livedirector\\' => array($baseDir . '/src/livedirector'),
 );
