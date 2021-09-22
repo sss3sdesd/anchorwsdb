@@ -2,7 +2,11 @@
     "name": "anchorws/livedirector",
     "type": "l",
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "ext-json": "*",
+        "guzzlehttp/promises": "^1.4",
+        "guzzlehttp/psr7": "^1.7 || ^2.0",
+        "psr/http-client": "^1.0"
     },
     "autoload": {
         "psr-4": {
