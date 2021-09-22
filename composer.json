@@ -1,5 +1,5 @@
 {
-    "name": "ws/db",
+    "name": "anchorwsdb/db",
     "type": "l",
     "require": {
         "php": ">=7.0.0"
