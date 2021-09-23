@@ -1,6 +1,7 @@
 {
     "name": "anchorws/livedirector",
     "type": "l",
+    "license": "MIT",
     "require": {
         "php": ">=7.0.0",
         "ext-json": "*",
