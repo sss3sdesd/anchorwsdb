@@ -16,7 +16,7 @@ class Director{
      * @param $sign
      * @return false|\Psr\Http\Message\StreamInterface
      */
-    public static function createInstance($instanceName,$userId,$inputSize,$endTime,$callBackUrl,$sign)
+    public static function createInstance($instanceName,$userId,$inputSize,$endTime,$random,$callBackUrl,$sign)
     {
         $uri = '/api/create';
         $data = [
@@ -25,7 +25,7 @@ class Director{
             'endTime' => $endTime,
             'userId' => $userId,
             'callBackUrl' => $callBackUrl,
-            'random' => time() * 1000,
+            'random' => $random,
             'sign' => $sign //md5($userId.$secret_key.$random)
         ];
         // Create a client with a base URI
