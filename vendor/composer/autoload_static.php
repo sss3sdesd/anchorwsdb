@@ -58,7 +58,7 @@ class ComposerStaticInitba5a6b150cd29d39fc09e779c1a40f0f
         ),
         'Livedirector\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/livedirector',
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
