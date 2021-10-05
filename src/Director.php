@@ -155,7 +155,25 @@ class Director{
             'X-Direct-InstanceId' => $id,
             'X-Direct-Token' => $token
         ];
-        return self::request($uri,'POST',[],$headers);
+        return self::request($uri,'POST',[],$headers,'query');
+    }
+
+    /**
+     * 显示所有导播台
+     * @param $userId
+     * @param $random
+     * @param $sign
+     * @return false|\Psr\Http\Message\StreamInterface
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
+    public static function getAliveInstances($userId,$random,$sign){
+        $uri = '/api/getAliveInstances';
+        $data = [
+            'userId' => $userId,
+            'random' => $random,
+            'sign' => $sign //md5($userId.$secret_key.$random)
+        ];
+        return self::request($uri, 'GET', $data, [],'query');
     }
 
     /**
