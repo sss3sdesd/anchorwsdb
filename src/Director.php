@@ -25,6 +25,7 @@ class Director{
             'endTime' => $endTime,
             'userId' => $userId,
             'callBackUrl' => $callBackUrl,
+            'enableAutoClose' => true,
             'random' => $random,
             'sign' => $sign //md5($userId.$secret_key.$random)
         ];
